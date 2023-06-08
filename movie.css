@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.whole{
+    background-color: rgb(40, 9, 70);
+    height: 300vh;
+}
+h1{
+    color: aliceblue;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 7rem
+    
+}
+.animate{
+    animation-name: fontcc;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+@keyframes fontcc{
+    from{color: aliceblue;}
+    to{color: rgb(118, 118, 42);}
+}
+p{
+    color: antiquewhite;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: justify;
+    word-spacing: 2px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.img9{
+    float: left;
+}
+
+.animate{
+    width:200px;
+    height: 200px;
+    background-color: orange;
+    animation: box3 1s linear 1s infinite alternate forwards;
+    margin-top: 50px;
+    margin-left: 700px;
+    clear: both;
+}
+@keyframes box3{
+    from{background-color: orange;}
+    to{background-color: cadetblue;}
+    from{transform: rotate(0deg);}
+    to{transform: rotate(70deg);}
+}
+.animate2{
+    width:200px;
+    height: 200px;
+    background-color: orange;
+    animation: box3 1s linear 1s infinite alternate forwards;
+    margin-top: 50px;
+    margin-left: 450px;
+    float: left;
+}
+@keyframes box3{
+    from{background-color: orange;}
+    to{background-color: cadetblue;}
+    from{transform: rotate(0deg);}
+    to{transform: rotate(70deg);}
+}
+.animate3{
+    width:200px;
+    height: 200px;
+    background-color: orange;
+    animation: box3 1s linear 1s infinite alternate forwards;
+    margin-left: 900px;
+    margin-bottom: 1200px;
+    float: left;
+}
+@keyframes box3{
+    from{background-color: orange;}
+    to{background-color: cadetblue;}
+    from{transform: rotate(0deg);}
+    to{transform: rotate(70deg);}
+}
+
+h2{
+    color: aliceblue;
+    font-size: 4rem;
+    margin-left: 900px;
+    position: relative;
+    margin-top: 50px;
+}

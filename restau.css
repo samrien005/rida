@@ -1,0 +1,63 @@
+div.whole{
+    background-color: #671414;
+    height: 220vh;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    margin-left: 20px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7rem;
+    color: #bba14f;
+
+}
+.img{
+    margin-left: 100px;
+    float: left;
+    
+}
+.img2{
+    margin-left: 0%;
+    position: relative;
+    margin-right: 40px;
+}
+.animate{
+    animation-name: img;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
+@keyframes img{
+    from{transform: rotate(0deg);}
+     to{transform: rotate(4deg);}
+}
+.animate2{
+    animation-name: img;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-direction: alternate;
+
+}
+@keyframes img2{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(4deg);}
+}
+.poli{
+    font-family: Arial, Helvetica, sans-serif
+    text-align: justify;
+    margin: 60px;
+}
+
+.img3{
+     margin-left: 350px;
+}

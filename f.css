@@ -1,0 +1,39 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.whole{
+    background-color: #0f0e17;
+    height: 100vh;
+}
+h1{
+    font-style: italic;
+    text-align: center;
+}
+div.PROJECTS div.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+div.items figure{
+    width: 25%;
+    height: 70vh;
+    background-color: aqua;
+    margin: 5px;
+    border-radius: 10px;
+}
+figure figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    margin: 5px;
+}
+div.items figure img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
